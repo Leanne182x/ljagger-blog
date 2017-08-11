@@ -1,0 +1,24 @@
+baseURL = "http://ljagger.com/"
+DefaultContentLanguage = "en"
+title = "L Jagger"
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "Sometimes I write things"
+  dateFormat = "January 2, 2006"
+  comments = false
+
+[Author]
+ github = "leanne182x"
+ linkedin = "leannejagger"
+ stackoverflow = "users/1348844/leanne182x"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "pages/about/"
+    weight = 3
