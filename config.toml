@@ -5,6 +5,8 @@ theme = "beautifulhugo"
 
 [Params]
   subtitle = "Sometimes I write things"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   comments = false
 
