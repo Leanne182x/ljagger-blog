@@ -13,6 +13,7 @@ theme = "beautifulhugo"
  github = "leanne182x"
  linkedin = "leannejagger"
  stackoverflow = "users/1348844/leanne182x"
+ twitter = "Leanne182x"
 
 [[menu.main]]
     name = "Blog"
