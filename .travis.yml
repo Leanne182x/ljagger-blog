@@ -19,3 +19,5 @@ deploy:
   bucket: "leannes-test-travisci-deploy-bucket"
   skip_cleanup: true
   region: "eu-west-1"
+  on:
+    all_branches: true
