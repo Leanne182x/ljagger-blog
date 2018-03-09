@@ -11,3 +11,11 @@ install:
 # Build the website
 script:
   - binaries/hugo --theme=beautifulhugo
+
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  bucket: "leannes-test-travisci-deploy-bucket"
+  skip_cleanup: true
+  region: "eu-west-1"
