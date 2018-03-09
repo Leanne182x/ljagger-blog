@@ -10,7 +10,7 @@ install:
 
 # Build the website
 script:
-  - binaries/hugo
+  - binaries/hugo -v
 
 deploy:
   provider: s3
